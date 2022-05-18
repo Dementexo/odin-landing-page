@@ -1,0 +1,11 @@
+.sec1FC{
+    display: flex;
+    background-color: #1F2937;
+    height: 450px;
+}
+.sec1h1{
+    color: white;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
