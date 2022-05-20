@@ -1,5 +1,5 @@
 .sec1FC{
-    display: flex;
+    display:flex;
     background-color: #1F2937;
     height:500px;
 }
@@ -31,9 +31,6 @@
 }
 .sec1col{
     display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    background-color:gray;
     height:50%;
     width:auto;
     margin-top:10%;
@@ -50,12 +47,23 @@
 }
 .sec1IPH{
     display:flex;
+    background-color:gray;
     margin-left:auto;
-    background-color:darkgray;
     height:100%;
     width:45%;
 }
 .IPHtext{
     margin:auto;
     color:#E5E7EB;
+}
+.sec1button{
+    background-color:#3882F6;
+    border:none;
+    max-width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:#E5E7EB;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    margin-top:5%;
 }
