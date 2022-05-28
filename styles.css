@@ -115,13 +115,16 @@ body{
     justify-content:center;
     align-items:center;
     border-style:solid;
-    border-radius:8%;
+    border-radius:3%;
     border-color:#1F2937;
     border-width:2px;
     height:8em;
     color:white;
     background-color:white;
-
+}
+.sec2IMG img{
+    height:100%;
+    max-width:100%;
 }
 .sec2SUB{
     margin-top:5%;
