@@ -1,6 +1,3 @@
-body{
-    background-image:url("images/rogov-fIMrLBlkQaA-unsplash.jpg");
-}
 .sec1FC{
     display:flex;
     background-color: #1F2937;
@@ -122,9 +119,9 @@ body{
     border-style:solid;
     border-radius:3%;
     border-color:#1F2937;
-    color:white;
+    color:lightgray;
     border-width:1px;
-    background-color:white;
+    background-color:lightgray;
 }
 .sec2IMG img{
     height:100%;
@@ -157,8 +154,8 @@ body{
     display:flex;
     flex-direction:column;
     width:65%;
-    margin-top:8%;
-    margin-bottom:5%;
+    margin-top:12%;
+    margin-bottom:12%;
 }
 .quote{
     font-size:3vw;
@@ -183,10 +180,10 @@ body{
     flex-direction:row;
     width:75%;
     border-radius:8px;
-    margin-top:8%;
+    margin-top:10vw;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:8%;
+    margin-bottom:15vw;
     background-color:#3882F6;
 }
 .sec4info{
@@ -211,10 +208,13 @@ body{
     border: 1px solid #E5E7EB;
 }
 .footerFC{
-    margin-top:auto;
     display:flex;
     width:100%;
     background-color:#1F2937;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
 }
 .footerContent{
     color:#E5E7EB;
