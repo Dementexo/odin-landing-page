@@ -11,6 +11,7 @@ body{
     margin-right:auto;
     margin-top:1%;
     max-width:70%;
+    margin-bottom:3%;
 }
 .sec1h1{
     display:inline-block;
@@ -101,7 +102,7 @@ body{
     flex-direction:row;
     justify-content:center;
     margin-top:3%;
-    height:40vw;
+    height:30vw;
     width:60vw;
 }
 .ImgAndSubCol{
@@ -110,7 +111,7 @@ body{
     flex-direction:column;
     margin-left:3%;
     margin-right:3%;
-    height:60%;
+    height:80%;
     width:50%;
 }
 .sec2IMG{
@@ -121,8 +122,8 @@ body{
     border-style:solid;
     border-radius:3%;
     border-color:#1F2937;
-    border-width:2px;
     color:white;
+    border-width:1px;
     background-color:white;
 }
 .sec2IMG img{
@@ -139,8 +140,8 @@ body{
     background-color:white;
     border-style:solid;
     border-color:black;
-    border-width:2px;
     border-radius:8%;
+    border-width:1px;
     font-size:1.5vw;
 
 }
@@ -207,17 +208,19 @@ body{
     color:#E5E7EB;
     width:60%;
     height:30%;
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
 }
 .footerFC{
+    margin-top:auto;
     display:flex;
     width:100%;
     background-color:#1F2937;
 }
 .footerContent{
     color:#E5E7EB;
+    font-size:2vw;
     margin-left:auto;
     margin-right:auto;
     margin-top:2%;
-    margin-bottom:2%
+    margin-bottom:2%;
 }
